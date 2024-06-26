@@ -23,7 +23,16 @@ body > header {
 
 header li {
     display: inline;
+    margin-right: 10px;
+}
+
+header a {
     text-decoration: none;
+    color: white;
+}
+
+.container h2, h3 {
+    padding-top: 10px;
 }
 
 .articles {
@@ -32,6 +41,51 @@ header li {
     justify-content: space-between;
 }
 
+.articles article img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .articles article {
-    width: 45%;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.articles a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+#sports {
+    background-color: rgba(155, 155, 250, 0.2);
+}
+
+#economy {
+    background-color: rgba(15, 155, 250, 0.2);
+}
+
+#tecnology {
+    background-color: rgba(15, 155, 25, 0.2);
+}
+
+#foot {
+    background-color: black;
+    color: white;
+}
+
+#foot .container {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
 }
