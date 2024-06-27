@@ -1,212 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <h1>Meu portal de notícias</h1>
+            <h1>Portal de Notícias</h1>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                    </li>
-                    <li>
-                        <a href="#economy" title="Ir para a seção de economia">Economia</a>
-                    </li>
-                    <li>
-                        <a href="#neuroscience" title="Ir para a seção de tecnologia">Neurociência</a>
-                    </li>
-                    <li>
-                        <a href="#tecnology" title="Ir para a seção de notícias">Tecnologia</a>
-                    </li>
-                </ul>
+                <ol>
+                    <li><a href="#economy">Mercado Financeiro</a></li>
+                    <li><a href="#tecnology">Tecnologia</a></li>
+                </ol>
             </nav>
         </div>
     </header>
-    <section id="sports">
-        <div class="container">
-            <header>
-                <h2>Esportes</h2>
-            </header>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Grande clássico na noite de hoje</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Noite do Superbowl</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Notícia sobre a NBA</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/eurocopa.jpeg" title="Ilustração de jogadores de vários países correndo em direção a câmera" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Vencedores da Eurocopa 2024</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
+    <main>
+        <section id="economy">
+            <div class="container">
+                <header>
+                    <h2>Mercado Financeiro</h2>
+                </header>
+                <div class="articles">
+                    <article>
+                        <img src="media_m4/mercado_financeiro.jpeg">
+                        <h3>Queda da bolsa</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, aperiam eum dolores at recusandae repellat cumque voluptatum saepe animi quasi blanditiis expedita, quam repellendus reprehenderit adipisci quaerat maiores deleniti?
+                        </p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="media_m4/mercado_financeiro2.jpeg">
+                        <h3>Manutenção da Selic</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, aperiam eum dolores at recusandae repellat cumque voluptatum saepe animi quasi blanditiis expedita, quam repellendus reprehenderit adipisci quaerat maiores deleniti?
+                        </p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </div> 
             </div>
-        </div>
-    </section>
-    <section id="economy">
-        <div class="container">
-            <header>
-                <h2>Economia</h2>
-            </header>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Dólar em alta de 0.50%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Euro em queda de 0.40%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Alta no preço do barril do petróleo</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
+        </section>
+        <section id="tecnology">
+            <div class="container">
+                <header>
+                    <h2>Tecnologia</h2>
+                </header>
+                <div class="articles">
+                    <article>
+                        <img src="media_m4/tecnologia.jpeg">
+                        <header>
+                            <h3>Tecnologia</h3>
+                        </header>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos dolorem sapiente neque vitae blanditiis aperiam fugit? Nobis beatae odio quia voluptatem temporibus eius sint labore quod, ratione dignissimos quasi quisquam!
+                        </p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="media_m4/tecnologia2.jpeg">
+                        <header>
+                            <h3>Ias malucas</h3>
+                        </header>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos dolorem sapiente neque vitae blanditiis aperiam fugit? Nobis beatae odio quia voluptatem temporibus eius sint labore quod, ratione dignissimos quasi quisquam!
+                        </p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="neuroscience">
-        <div class="container">
-            <header>
-                <h2>Neurociência</h2>
-            </header>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/neurociencia.jpeg" alt="ilustração de uma neurocientista estudando um cérebro" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Ascensão da Neurociência</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/neuralink.jpeg" alt="ilustração de um cérebro com um chip neural" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Paciente recebe implante de chip</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/cerebro.jpeg" alt="ilustração das conexões neurais de um cérebro humano" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Mas e cérebro durante a morte?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="tecnology">
-        <div class="container">
-            <header>
-                <h2>Tecnologia</h2>
-            </header>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/ia.jpeg" alt="Ia ensinando crianças em uma escola" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>IAs: ferramentas educacionais?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/python.jpeg" alt="Ilustração de uma cobra python em cima de um teclado e um pequeno monitor" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>O que é a linguagem Python?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/tech.jpeg" alt="Ilustração com a palavra educação ao centro e diversas tecnologias rodeando" />
-                    <header>
-                        <time>27/06/2024 às 17:35</time>
-                    </header>
-                    <h3>Tecnologia aliada na educação</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
+    <div id="footer_">
+        <footer>
+            &copy; Todos os direitos reservados
+        </footer>
+    </div>
 </body>
 </html>
