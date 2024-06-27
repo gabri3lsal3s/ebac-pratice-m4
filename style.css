@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -64,18 +68,20 @@ header a {
 
 .container a:hover {
     text-decoration: underline;
+    padding: 10px;
+    transition-duration: 0.5s;
 }
 
 #sports {
-    background-color: rgba(155, 155, 250, 0.2);
+    background-color: rgba(255, 0, 0, 0.05);
 }
 
 #economy {
-    background-color: rgba(15, 155, 250, 0.2);
+    background-color: rgba(15, 155, 250, 0.05);
 }
 
 #tecnology {
-    background-color: rgba(15, 155, 25, 0.2);
+    background-color: rgba(15, 155, 25, 0.05);
 }
 
 #foot {
