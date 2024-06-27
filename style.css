@@ -10,6 +10,11 @@ body {
     color: black;
 }
 
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
 header li, a {
     display: inline;
     padding: 5px;
@@ -19,6 +24,18 @@ header li, a {
 
 header a:hover {
     text-decoration: underline;
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+.articles article img:hover {
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.articles article a:hover {
+    border-radius: 25px;
+    transition-duration: 1s;
 }
 
 header .container {
@@ -42,11 +59,6 @@ header h2 {
 header h3 {
     margin: 10px 0 5px 0;
     font-size: 25px;
-}
-
-.container {
-    width: 1366px;
-    margin: 0 auto;
 }
 
 #economy {
@@ -77,16 +89,15 @@ header h3 {
     color: white;
     display: inline-block;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
 }
 
-.articles a:hover {
-    text-decoration: underline;
-}
-
-section {
+.foot {
+    background-color: black;
+    color: white;
     padding: 10px;
 }
 
@@ -94,7 +105,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    padding: 10px;
-    background-color: black;
-    color: white;
+}
+
+.foot #footer_:active {
+    display: none;
 }
