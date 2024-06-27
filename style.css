@@ -72,6 +72,12 @@ header a {
     transition-duration: 0.5s;
 }
 
+.container img:hover {
+    padding: 5px;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+}
+
 #sports {
     background-color: rgba(255, 0, 0, 0.05);
 }
